@@ -28,26 +28,27 @@
 <div id="mainDiv" onClick="play()">
 	<div id="content">
 		<div id="code">
-        	当第一次听到你的声音<br />
-            我们的故事就在那一刻</span><br />
+        	当我再次听到友人提起你的时候<br />
+            我对你的感觉就慢慢的</span><br />
             <span class="keyword">开始了</span><br /><br />
 
-            我很努力的<br />
-            要成为你的<br />
-            <span class="keyword">男朋友</span><br /><br />
+            通过了解，我发现你是医院里活泼的医护小姐姐，同时也是一个爱自己家人的子女，更是一个热爱生活像丁香一样的姑娘......<br />
+            但是对你的了解我想一直持续下去<br />
+            <span class="keyword">曾雪梅，我大声的告诉你：</span><br /><br />
 
             这种感觉<br />
-            真的很<br />
-             <span class="keyword">美妙</span><br /><br />
+            真的很像<br />
+             <span class="keyword">坐过山车一样，你愿意和我一起嘛？</span><br /><br />
 
-            唯有梦想与简琴琴<br />
-            <span class="keyword">不可辜负</span><br /><br />
+            最后，我想说：<br />
+            <span class="keyword">唯有美好的时光与你不能错过</span><br /><br />
 
              <hr />
-   			<span class="keyword">I want to say:</span><br />
-			Piano Baby<br />
-            <span class="keyword"> I love you! </span><br />
-            -- 亮亮<br />
+   			<span class="keyword">I want to say：</span>雪梅<br />
+			<br />
+            <span class="keyword"> I miss you </span><br />
+            <br />
+			-- 亮亮 --
 
 
 		</div>
@@ -55,7 +56,7 @@
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					今天是想见你的第：
+					今天是朱亮亮想曾雪梅的第：
 					<div id="elapseClock"></div>
 				</div>
 <!--			<div id="loveu">
@@ -73,9 +74,9 @@ var offsetX = $("#loveHeart").width() / 2;
 var offsetY = $("#loveHeart").height() / 2 - 55;
 var together = new Date();
 
-together.setFullYear(2024, 1, 30);//1.23；3.29
-together.setHours(8);
-together.setMinutes(41);
+together.setFullYear(2024, 01, 22);//1.23；3.29
+together.setHours(0);
+together.setMinutes(0);
 together.setSeconds(0);
 together.setMilliseconds(0);
 
@@ -96,14 +97,14 @@ if (!document.createElement('canvas').getContext) {
 	timeElapse(together);
 	setInterval(function () {
 		timeElapse(together);
-	}, 500);
+	}, 1000);
 
 	adjustCodePosition();
 	$("#code").typewriter();
 }
 </script>
 <div style="text-align:center;clear:both">
-<p>Copyright © 2014 - 2020. All Rights Reserved. Designed by <a href="https://github.com/istaru" target="_blank">Julian<a /> </p>
+<p>Copyright © 2024 - 2024. All Rights Reserved. Designed by <a href="https://github.com/istaru" target="_blank">Julian<a /> </p>
 </div>
 </body>
 </html>
